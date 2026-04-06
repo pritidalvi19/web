@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priti Dalvi - Digital Portfolio</title>
+    <meta name="description"
+        content="Digital portfolio of Priti Dalvi showcasing achievements, projects, certificates, and skills.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">PD<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-sun toggle-icon" id="toggle-icon"></i>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="hero fade-in-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Priti Dalvi</h1>
+                <h2 class="typewriter-text"><span id="typewriter"></span><span class="cursor">_</span></h2>
+                <p class="short-intro">
+                    An enthusiastic Artificial Intelligence and Machine Learning (AIML) student dedicated to innovation
+                    and building AI-driven solutions.
+                    I am eager to learn, explore data, and contribute to cutting-edge technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View Work</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="blob-shape"></div>
+                <img src="assets/images/profile-photo.jpg" alt="Priti Dalvi" class="hero-image"
+                    onerror="this.src='https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in-section padding-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glassmorphism">
+                    <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Education</h3>
+                    <p>Currently pursuing studies, focusing on emerging technologies, AI, and software development.
+                        Consistently maintaining top academic performance.</p>
+                </div>
+                <div class="about-card glassmorphism">
+                    <div class="about-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Interests</h3>
+                    <p>Fascinated by Artificial Intelligence, Web Development, Design Thinking, and open-source
+                        contributions. I love solving real-world problems.</p>
+                </div>
+                <div class="about-card glassmorphism">
+                    <div class="about-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Goals</h3>
+                    <p>To become a leading Software Engineer & AI Researcher. I aim to create impactful applications
+                        that enhance human productivity and creativity.</p>
+                </div>
+                <div class="about-card glassmorphism">
+                    <div class="about-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Strengths</h3>
+                    <ul class="strengths-list">
+                        <li><i class="fas fa-check-circle"></i> Rapid Learner</li>
+                        <li><i class="fas fa-check-circle"></i> Creative Problem Solving</li>
+                        <li><i class="fas fa-check-circle"></i> Team Collaboration</li>
+                        <li><i class="fas fa-check-circle"></i> Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="fade-in-section padding-section alt-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Achievements</span></h2>
+                <div class="underline"></div>
+            </div>
+            <p class="section-subtitle">Certificates, awards, and notable events I've participated in.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glassmorphism">
+                        <span class="date">2023</span>
+                        <h3>Cisco Networking Academy (Netacad)</h3>
+                        <p>Successfully completed IT Essentials and Introduction to CyberSecurity. Gained foundational
+                            knowledge in networking and system security.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glassmorphism">
+                        <span class="date">2024</span>
+                        <h3>Yuva AI Initiative</h3>
+                        <p>Obtained the Yuva AI certification, demonstrating proficiency in AI concepts and fundamental
+                            machine learning applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glassmorphism">
+                        <span class="date">Recent</span>
+                        <h3>Hackathons & Awards</h3>
+                        <p>Participated in regional coding competitions and events, consistently securing top ranks and
+                            pushing the boundaries of creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in-section padding-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glassmorphism group">
+                    <div class="project-img-container">
+                        <img src="assets/images/project-ai4a.png" alt="Ai4A Project"
+                            onerror="this.src='https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80'">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ai4A Project</h3>
+                        <p>An innovative artificial intelligence project focusing on accessibility. Utilizes modern ML
+                            frameworks to assist users with daily tasks.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glassmorphism group">
+                    <div class="project-img-container">
+                        <img src="assets/images/project-design.jpg" alt="Design Thinking Project"
+                            onerror="this.src='https://images.unsplash.com/photo-1541462608143-67571c6738dd?auto=format&fit=crop&w=600&q=80'">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Design Thinking Project</h3>
+                        <p>A user-centric solution addressing campus sustainability. Developed through comprehensive
+                            user research, ideation, and rapid prototyping.</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>HTML/CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glassmorphism group">
+                    <div class="project-img-container">
+                        <img src="assets/images/project-ace.jpg" alt="ACE Project"
+                            onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80'">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ACE Project</h3>
+                        <p>Advanced Computational Engineering project simulating physical systems. Showcases strong
+                            analytical skills and algorithmic efficiency.</p>
+                        <div class="tech-stack">
+                            <span>C++</span>
+                            <span>Data Viz</span>
+                            <span>Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="fade-in-section padding-section alt-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Gallery</span></h2>
+                <div class="underline"></div>
+            </div>
+            <p class="section-subtitle">A collection of my achieved certificates.</p>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="certificates">Certificates</button>
+            </div>
+
+            <div class="masonry-gallery">
+                <div class="gallery-item certificates">
+                    <img src="assets/images/cert-netacad.jpg" alt="Netacad Certificate"
+                        onerror="this.src='https://images.unsplash.com/photo-1589330694653-efa6475306e1?auto=format&fit=crop&w=600&q=80'">
+                    <div class="item-overlay"><span>Cisco Netacad</span></div>
+                </div>
+                <div class="gallery-item certificates">
+                    <img src="assets/images/cert-yuva.jpg" alt="Yuva AI Certificate"
+                        onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=600&q=80'">
+                    <div class="item-overlay"><span>Yuva AI</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in-section padding-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info glassmorphism">
+                    <h3>Let's connect!</h3>
+                    <p>I'm currently open for new opportunities, collaborations, and interesting projects. Whether you
+                        have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:priti.dalvi@example.com">priti.dalvi@example.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+1234567890">+91 9876543210</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maharashtra, India</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/" target="_blank" class="social-icon"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/pritidalvi19" target="_blank" class="social-icon"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/" target="_blank" class="social-icon"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form glassmorphism">
+                    <form id="form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="I woud like to talk about..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn w-100">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Priti Dalvi. All rights reserved.</p>
+            <p class="designed-by">Designed with <i class="fas fa-heart" style="color:#e94560;"></i> for future
+                endeavors.</p>
+        </div>
+        <!-- Back to top button -->
+        <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
