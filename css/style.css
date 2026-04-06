@@ -708,9 +708,9 @@ nav.scrolled {
 
 .masonry-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-auto-rows: 200px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .gallery-item {
@@ -718,24 +718,7 @@ nav.scrolled {
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
-}
-
-.gallery-item:nth-child(1) {
-    grid-row: span 2;
-}
-
-.gallery-item:nth-child(4) {
-    grid-row: span 2;
-}
-
-.gallery-item:nth-child(5) {
-    grid-column: span 2;
-}
-
-@media(max-width: 768px) {
-    .gallery-item:nth-child(5) {
-        grid-column: span 1;
-    }
+    aspect-ratio: 1.4 / 1; /* Standard certificate aspect ratio */
 }
 
 .gallery-item img {
